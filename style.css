@@ -156,6 +156,7 @@ ul li {
 
     .nav-menu ul.show {
         display: flex;
+        flex-direction: column;
     }
 
     .nav-menu a:hover {
