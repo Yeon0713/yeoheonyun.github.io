@@ -31,7 +31,7 @@ header h1 {
     border: none;
     cursor: pointer;
     display: none;
-    color: #fff; /* 햄버거 버튼의 색상을 흰색으로 변경 */
+    color: #fff;
 }
 
 .nav-menu ul {
@@ -44,7 +44,7 @@ header h1 {
 
 .nav-menu a {
     text-decoration: none;
-    color: #fff; /* 글씨 색상을 흰색으로 변경 */
+    color: #fff; 
 }
 
 .content-section {
@@ -130,7 +130,7 @@ ul li {
 }
 
 .hobby-text {
-    font-size: 18px; /* 글씨 크기를 키움 */
+    font-size: 18px; 
 }
 
 @media (max-width: 768px) {
@@ -141,7 +141,7 @@ ul li {
         position: absolute;
         top: 60px;
         left: 0;
-        background: rgba(0, 0, 0, 0.9); /* 메뉴 배경색을 어둡게 변경 */
+        background: rgba(0, 0, 0, 0.9); 
     }
 
     .nav-toggle {
@@ -149,7 +149,7 @@ ul li {
     }
 
     .nav-menu a {
-        color: #fff; /* 메뉴 항목의 글씨 색상을 흰색으로 변경 */
+        color: #fff; 
         padding: 15px 20px;
         display: block;
     }
@@ -159,7 +159,7 @@ ul li {
     }
 
     .nav-menu a:hover {
-        background: rgba(255, 255, 255, 0.2); /* 메뉴 항목에 호버 효과 추가 */
+        background: rgba(255, 255, 255, 0.2);
     }
 
     .study-grid {

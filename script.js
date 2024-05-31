@@ -1,13 +1,16 @@
 $(document).ready(function() {
-    $('.nav-toggle').click(function() {
-        $('.nav-menu ul').toggleClass('show');
+    $('#about').show();
+    $('#study').hide();
+    $('#hobby').hide();
+
+    $('.nav-toggle').on('click', function() {
+        $('.nav-menu').slideToggle();
     });
 
-    $('.nav-link').click(function(e) {
-        e.preventDefault();
-        $('.nav-menu ul').removeClass('show');
-        var sectionTo = $(this).attr('href');
+    $('.nav-link').on('click', function(event) {
+        event.preventDefault();
+        var targetSection = $(this).data('section');
         $('.content-section').hide();
-        $(sectionTo).fadeIn(1000);
+        $('#' + targetSection).show();
     });
 });
